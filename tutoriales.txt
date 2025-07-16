@@ -1,0 +1,842 @@
+
+Instrucciones para Crear un Grupo:
+
+   1. En el menú lateral, selecciona **'Grupos'**.
+
+   2. En la sección de Grupos, haz clic en el botón **'Nuevo Grupo'**.
+
+   3. Se abrirá un formulario para crear el grupo. Completa los siguientes campos:
+
+      - **Nombre del Grupo**: Ingresa el nombre del grupo. Este campo es obligatorio.
+      - **Descripción**: Ingresa una descripción del grupo (opcional). Aquí puedes proporcionar información adicional sobre el grupo.
+
+   4. Revisa la información ingresada para asegurarte de que esté correcta.
+
+   5. Haz clic en el botón **'Crear Grupo'** para guardar el nuevo grupo.
+
+   6. Si deseas editar un grupo existente, selecciona el grupo desde la lista y haz clic en **'Editar'**. Luego, realiza los cambios necesarios y guarda.
+
+   7. Después de crear o editar el grupo, serás redirigido a la página del grupo donde podrás ver sus detalles.
+
+   8. Si necesitas regresar sin guardar, haz clic en **'Regresar'** para volver a la lista de grupos.
+
+--
+
+Instrucciones para Crear un Contratante Físico:
+
+   1. **Verifica que tengas un grupo creado.**  
+      Antes de crear un contratante, asegúrate de tener al menos un grupo configurado. Si no tienes un grupo, dirígete a la sección de **Grupos** en la configuración y crea uno. Una vez creado, regresa a esta sección para seleccionar el grupo correspondiente al contratante.
+
+   2. En el menú lateral, selecciona **'Clientes'**.
+
+   3. En el submenú, haz clic en **'Contratantes'**.
+
+   4. Una vez dentro de la sección de contratantes, haz clic en el botón **'Nuevo Contratante'** para comenzar a agregar los datos.
+
+   5. En la parte superior del formulario, selecciona el tipo de contratante: **Físico**.
+
+   6. Completa los datos del contratante:
+
+      - **Nombre Completo**: Ingresa el nombre completo del contratante. Asegúrate de que esté correctamente escrito.
+      - **Apellido Paterno**: Especifica el apellido paterno del contratante.
+      - **Apellido Materno**: Si aplica, ingresa el apellido materno del contratante.
+      - **Fecha de Nacimiento**: Introduce la fecha de nacimiento en el formato adecuado (DD/MM/AAAA).
+      - **Género**: Selecciona el género correspondiente (Masculino o Femenino).
+      - **RFC**: Ingresa el RFC del contratante. Recuerda que debe tener exactamente 13 caracteres.
+
+   7. Completa los datos de contacto del contratante:
+
+      - **Correo Electrónico**: Ingresa una dirección de correo electrónico válida. Asegúrate de que la dirección esté escrita correctamente para evitar problemas de comunicación.
+      - **Teléfono**: Ingresa el número de teléfono principal del contratante. Asegúrate de incluir la lada nacional si es necesario.
+
+   8. Si es necesario, añade más direcciones o detalles del contratante:
+
+      - Haz clic en **'+ Añadir Dirección'** para agregar nuevas direcciones (por ejemplo, dirección de domicilio, fiscal, etc.).
+      - Completa los campos de dirección como **Calle**, **Número exterior**, **Número interior** (si aplica), **Colonia**, **Código Postal**, etc.
+
+   9. Adjunta documentos si es necesario:
+
+      - Si el sistema lo solicita, adjunta documentos como **identificación oficial**, **comprobante de domicilio**, o cualquier otro documento requerido para la validación del contratante.
+      - Haz clic en **'Seleccionar archivo'** para elegir el archivo que deseas subir.
+
+   10. Revisa toda la información ingresada:
+
+      - Antes de finalizar, asegúrate de que todos los campos obligatorios estén correctamente llenados y que los datos sean precisos.
+      - Verifica que las direcciones y los documentos adjuntos sean los correctos.
+
+   11. Haz clic en **'Guardar Contratante'** para guardar la información y completar el proceso.
+
+--
+
+Instrucciones para Crear un Contratante Moral:
+
+   1. **Asegúrate de tener un grupo creado.**  
+      Antes de crear un contratante, asegúrate de que ya tengas un grupo configurado. Si no tienes un grupo creado, ve a la sección de configuración de **Grupos** y crea uno. Luego, regresa a esta sección para seleccionar el grupo correspondiente al contratante.
+
+   2. En el menú selecciona **'Contratantes'**.
+
+   3. Luego, en las opciones, selecciona **'Nuevo Contratante'**.
+
+   4. En la parte superior del formulario, elige el tipo de contratante: **Moral**.
+
+   5. Llena los datos del contratante:
+
+      - **Nombre de la empresa**: Ingresa el nombre completo de la empresa. Este es un campo obligatorio.
+      - **Fecha de constitución**: Introduce la fecha en que la empresa fue constituida en formato de fecha (DD/MM/AAAA). Este campo es obligatorio.
+      - **RFC**: Ingresa el RFC de la empresa. El RFC debe tener exactamente 12 caracteres. Este es un campo obligatorio.
+      - **Teléfono principal**: Ingresa el número de teléfono principal de contacto para la empresa.
+      - **Grupo**: Selecciona el grupo al que pertenece la empresa. Este campo es obligatorio.
+
+   6. Completa los datos de contacto del contratante:
+      
+      - **Correo electrónico principal**: Ingresa una dirección de correo electrónico válida para el contacto principal de la empresa.
+      
+   7. Añade teléfonos adicionales si es necesario:
+      - Haz clic en **'+ Agregar teléfono'** para añadir números de teléfono adicionales (por ejemplo, teléfono de oficina, teléfono móvil, etc.). Especifica el tipo de teléfono (Casa, Oficina, Móvil, etc.).
+
+   8. Añade correos electrónicos adicionales si es necesario:
+      - Haz clic en **'+ Agregar correo'** para añadir más direcciones de correo electrónico asociadas con la empresa. Asegúrate de seleccionar el tipo de correo (Personal, Trabajo, CFDI, etc.).
+
+   9. Agrega direcciones de la empresa:
+      - **Tipo de dirección**: Selecciona el tipo de dirección (Personal, Fiscal, de Cobro, Paquetería, Riesgo, CFDI).
+      - **Estado**: Selecciona el estado donde se encuentra la dirección. Este campo es obligatorio.
+      - **Municipio**: Selecciona el municipio correspondiente al estado seleccionado. Este campo es obligatorio.
+      - **Calle**: Ingresa la calle de la dirección.
+      - **Número exterior**: Ingresa el número exterior de la dirección.
+      - **Número interior**: Ingresa el número interior si aplica.
+      - **Colonia**: Ingresa la colonia de la dirección.
+      - **Código Postal**: Ingresa el código postal de la dirección.
+      - **Referencias**: Añade cualquier detalle adicional de la dirección, como puntos de referencia.
+
+   10. Adjunta documentos necesarios:
+      - Si se requiere, adjunta documentos como identificación oficial de la empresa, comprobante de domicilio, etc. Haz clic en **'Seleccionar archivo'** para elegir el archivo que deseas subir.
+
+   11. Revisa toda la información ingresada para asegurarte de que todo está correcto.
+
+   12. Haz clic en **'Guardar Contratante'** para guardar el contratante.
+
+--
+
+Instrucciones para Crear un Paquete:
+
+   1. **Asegúrate de que ya tienes aseguradoras creadas.**  
+      Antes de crear un paquete, debes tener al menos una aseguradora configurada. Si no tienes aseguradoras creadas, ve a la sección de **Aseguradoras** y crea una. Luego, regresa a esta sección para seleccionar la aseguradora correspondiente al paquete.
+
+   2. En el menú lateral, selecciona **'Paquetes'**.
+
+   3. Dentro de la sección de **Paquetes**, haz clic en el botón **'Nuevo Paquete'**.
+
+   4. Completa los datos del paquete:
+
+      - **Nombre del Paquete**: Ingresa el nombre del paquete. Este campo es obligatorio.
+      - **Aseguradora**: Selecciona la aseguradora que ofrece el paquete. Este campo es obligatorio.
+      - **Ramo**: Selecciona el ramo asociado al paquete. Este campo es obligatorio.
+      - **Subramo**: Selecciona el subramo asociado al paquete. Este campo es obligatorio.
+      - **Descripción**: Agrega una descripción para el paquete (opcional).
+
+   5. Revisa la información ingresada para asegurarte de que todos los campos sean correctos.
+
+   6. Haz clic en **'Guardar Paquete'** para guardar la información y completar la creación del paquete.
+
+   7. Si deseas editar un paquete existente, selecciona el paquete desde la lista y haz clic en **'Editar'**. Luego, realiza los cambios necesarios y guarda.
+
+   8. Una vez que el paquete ha sido creado, podrás agregar coberturas a ese paquete.
+
+   9. Para agregar coberturas, ve a la sección de **Coberturas del paquete** y haz clic en **'+ Añadir cobertura'**. Completa los datos de la cobertura, incluyendo el nombre de la cobertura, las sumas aseguradas y los deducibles. Haz clic en **'Guardar cobertura'** para agregarla.
+
+   10. Si deseas editar o eliminar coberturas del paquete, selecciona la cobertura en la lista y haz clic en **'Editar'** o **'Eliminar'** según corresponda.
+
+   11. Para cancelar la operación en cualquier momento, haz clic en **'Cancelar'**.
+
+   12. Una vez que hayas terminado, revisa toda la información ingresada y haz clic en **'Guardar Paquete'** para completar el proceso.
+
+--
+
+Instrucciones para Crear una Aseguradora:
+
+   1. **Asegúrate de que ya tienes ramos configurados.**  
+      Antes de crear una aseguradora, debes asegurarte de que ya tengas los ramos configurados. Si no tienes ramos configurados, dirígete a la sección de **Ramos** y crea uno. Luego, regresa a esta sección para seleccionar los ramos asociados a la aseguradora.
+
+   2. En el menú lateral, selecciona **'Aseguradoras'**.
+
+   3. Dentro de la sección de **Aseguradoras**, haz clic en el botón **'Nueva Aseguradora'**.
+
+   4. Completa los datos de la aseguradora:
+
+      - **Compañía**: Ingresa el nombre completo de la aseguradora. Este campo es obligatorio.
+      - **Alias**: Ingresa un alias para la aseguradora (por ejemplo, abreviatura o nombre comercial). Este campo es obligatorio.
+      - **RFC**: Ingresa el RFC de la aseguradora. El RFC debe tener exactamente 13 caracteres alfanuméricos. Este campo es obligatorio.
+      - **Teléfono**: Ingresa el número de teléfono de contacto de la aseguradora. Este campo es obligatorio.
+      - **Sitio Web**: Ingresa la URL del sitio web de la aseguradora. Este campo es obligatorio.
+
+   5. Configura los **Ramos** asociados a la aseguradora. Selecciona los ramos que correspondan a la aseguradora, como:
+      - Vida
+      - Accidentes y Enfermedades
+      - Automóviles
+      - Daños
+
+      Asegúrate de seleccionar al menos un ramo.
+
+   6. Agrega las **Claves** de la aseguradora:
+      - Haz clic en **'Agregar Clave'** para agregar nuevas claves.
+      - Completa el **nombre** y la **clave** para cada nueva clave.
+      - Marca la opción **Activa** si la clave está activa.
+
+   7. Revisa toda la información ingresada para asegurarte de que esté correcta.
+
+   8. Haz clic en **'Guardar Aseguradora'** para guardar la nueva aseguradora.
+
+   9. Si deseas editar una aseguradora existente, selecciona la aseguradora desde la lista y haz clic en **'Editar'**. Luego, realiza los cambios necesarios y guarda.
+
+   10. Si deseas eliminar una clave, selecciona la clave y haz clic en **'Eliminar'**.
+
+   11. Si deseas cancelar la operación en cualquier momento, haz clic en **'Cancelar'**.
+
+   12. Una vez que hayas terminado, revisa toda la información ingresada y haz clic en **'Guardar Aseguradora'** para completar el proceso.
+
+
+--
+
+Instrucciones para Crear una Póliza de Vida
+
+   #### **1. Asegúrate de tener la aseguradora, el ramo y el subramo configurados.**
+   Antes de crear una póliza, debes asegurarte de tener configurados los siguientes elementos:
+   - **Aseguradora**: Debes tener una aseguradora configurada previamente. Si no tienes una, dirígete a la sección de **Aseguradoras** y crea una.
+   - **Ramo y Subramo**: Debes tener configurado el ramo y subramo correspondientes a la póliza que deseas crear. Ve a la sección de **Ramos** y **Subramos** si necesitas crearlos.
+
+   #### **2. En el menú lateral, selecciona 'Pólizas'.**
+
+   #### **3. Dentro de la sección de 'Pólizas', haz clic en el botón 'Nueva Póliza'.**
+
+   #### **4. Completa los Datos Generales de la Póliza**:
+   - **Número Interno**: Este campo es autogenerado, pero se puede personalizar si es necesario.
+   - **Número de Póliza**: Ingresa el número de la póliza. Este campo es obligatorio.
+   - **Contratante**: Ingresa el nombre del contratante. Si ya tienes un contratante registrado, busca y selecciona el contratante correspondiente.
+   - **Dirección**: Selecciona la dirección correspondiente al contratante.
+   - **Correo Electrónico**: Ingresa la dirección de correo electrónico del contratante.
+   - **Teléfono**: Ingresa el número de teléfono del contratante.
+   - **Vigencia Desde**: Selecciona la fecha de inicio de la vigencia de la póliza. Este campo es obligatorio.
+   - **Vigencia Hasta**: Selecciona la fecha de fin de la vigencia de la póliza. Este campo es obligatorio.
+   - **Renovable**: Selecciona si la póliza es renovable o no. Este campo es obligatorio.
+
+   #### **5. Completa los Detalles de la Aseguradora**:
+   - **Aseguradora**: Selecciona la aseguradora correspondiente a la póliza. Este campo es obligatorio.
+   - **Clave de Agente**: Selecciona la clave del agente de la aseguradora.
+   - **Ramo**: Selecciona el ramo correspondiente a la póliza. Este campo es obligatorio.
+   - **Subramo**: Selecciona el subramo correspondiente. Este campo es obligatorio.
+   - **Paquete**: Selecciona el paquete correspondiente para la póliza. Este campo es obligatorio.
+
+   #### **6. Coberturas**: 
+   Selecciona las coberturas correspondientes a la póliza. Las coberturas se asignan según el ramo y subramo seleccionados.
+
+   #### **7. Forma de Pago**: 
+   Selecciona la forma de pago para la póliza. Las opciones incluyen mensual, bimestral, trimestral, etc. Este campo es obligatorio.
+
+   #### **8. Moneda**: 
+   Selecciona la moneda para la póliza. Las opciones incluyen pesos, dólares, UDI, euro, etc. Este campo es obligatorio.
+
+   #### **9. Observaciones**: 
+   Si es necesario, ingresa alguna observación adicional relacionada con la póliza.
+
+   #### **10. Archivos**: 
+   Si es necesario, adjunta los documentos relacionados con la póliza, como el contrato, identificación, comprobante de domicilio, etc.
+
+   Tras haber configurado los datos generales de la póliza (aseguradora, ramo/subramo, paquete, coberturas, forma de pago, etc.), continúa con la sección de vida:
+      1. **Agregar Titulares**: 
+         - En el formulario, se te permitirá agregar titulares (las personas aseguradas bajo la póliza). 
+         - Haz clic en el botón **"Agregar Titular"** para incluir a cada persona asegurada. Cada titular debe incluir:
+         - Nombre
+         - Apellido Paterno
+         - Apellido Materno
+         - Fecha de Nacimiento
+         - Sexo
+         - Antigüedad (fecha de inicio de la antigüedad del titular)
+         - Marcar si es fumador
+
+      2. **Agregar Beneficiarios**: 
+         - Los beneficiarios son las personas que recibirán los beneficios de la póliza en caso de fallecimiento del titular.
+         - Completa los datos de los beneficiarios, y asigna a cada uno el porcentaje de los beneficios que le corresponde.
+         - Puedes agregar múltiples beneficiarios.
+
+      3. **Revisión y Confirmación**: 
+         - Revisa los datos de los titulares y beneficiarios que has ingresado. Asegúrate de que toda la información esté correcta.
+         - Si necesitas editar algún dato, puedes hacerlo directamente en el formulario.
+
+      4. **Guardar la Póliza**: 
+         - Una vez que hayas completado todos los campos, haz clic en el botón **"Guardar Póliza"** para guardar la póliza de vida.
+         - Si decides no guardar la información, puedes hacer clic en **"Cancelar"**.
+
+      ---
+
+      ### **Tutorial para Crear una Póliza de Accidentes y Enfermedades**
+
+      Tras haber configurado los datos generales de la póliza (aseguradora, ramo/subramo, paquete, coberturas, forma de pago, etc.), continúa con la sección de Accidentes y Enfermedades:
+
+      1. **Datos del Titular**  
+         En el bloque “Datos del Titular” ingresa la información de la persona asegurada para esta cobertura:
+         - **Nombre**: Ingresa el primer nombre.
+         - **Apellido Paterno**: Ingresa el apellido paterno.
+         - **Apellido Materno**: Ingresa el apellido materno.
+         - **Fecha de Nacimiento**: Selecciona la fecha en formato DD/MM/AAAA.
+         - **Sexo**: Selecciona Masculino o Femenino.
+         - **Antigüedad**: Fecha de inicio de la vigencia de esta cobertura (por lo general igual a “Vigencia Desde” de la póliza).
+         - **¿Es fumador?**: Marca esta casilla si el titular es fumador.
+
+      2. **Dependientes (Beneficiarios en caso de accidente)**  
+         Debajo de los datos del titular, verás la sección “Dependientes”. Aquí podrás asignar personas que recibirán un pago por accidente del titular:
+         - Haz clic en **“Agregar Dependiente”** para incluir un nuevo dependiente.
+         - Para cada dependiente, completa:
+         - **Nombre**  
+         - **Apellido Paterno**  
+         - **Apellido Materno**  
+         - **Relación** (por ejemplo: Cónyuge, Hijo, Padre)  
+         - **Fecha de Nacimiento**  
+         - **Sexo**  
+         - **Antigüedad** (fecha en que la persona pasa a ser dependiente)  
+         - Si deseas eliminar un dependiente, haz clic en la “X” roja al lado de su bloque.
+
+      3. **Revisión Final**  
+         - Verifica que los datos del titular y de todos los dependientes estén completos y correctos.  
+         - Asegúrate de que las fechas tengan el formato correcto y de haber marcado correctamente el estado de fumador.  
+         - Confirma que la lista de dependientes incluye a todas las personas que deben estar cubiertas bajo esta sección.
+
+      4. **Guardar**  
+         - Una vez revisado, continúa al siguiente paso de tu flujo de trabajo (por ejemplo: formas de pago o finalizar la póliza).  
+         - Si en tu proceso debes confirmar o guardar, haz clic en **“Guardar Póliza”** o **“Continuar”**, según corresponda.
+
+--
+
+Instrucciones para Crear una Póliza de autos
+
+   #### **1. Asegúrate de tener la aseguradora, el ramo y el subramo configurados.**
+   Antes de crear una póliza, debes asegurarte de tener configurados los siguientes elementos:
+   - **Aseguradora**: Debes tener una aseguradora configurada previamente. Si no tienes una, dirígete a la sección de **Aseguradoras** y crea una.
+   - **Ramo y Subramo**: Debes tener configurado el ramo y subramo correspondientes a la póliza que deseas crear. Ve a la sección de **Ramos** y **Subramos** si necesitas crearlos.
+
+   #### **2. En el menú lateral, selecciona 'Pólizas'.**
+
+   #### **3. Dentro de la sección de 'Pólizas', haz clic en el botón 'Nueva Póliza'.**
+
+   #### **4. Completa los Datos Generales de la Póliza**:
+   - **Número Interno**: Este campo es autogenerado, pero se puede personalizar si es necesario.
+   - **Número de Póliza**: Ingresa el número de la póliza. Este campo es obligatorio.
+   - **Contratante**: Ingresa el nombre del contratante. Si ya tienes un contratante registrado, busca y selecciona el contratante correspondiente.
+   - **Dirección**: Selecciona la dirección correspondiente al contratante.
+   - **Correo Electrónico**: Ingresa la dirección de correo electrónico del contratante.
+   - **Teléfono**: Ingresa el número de teléfono del contratante.
+   - **Vigencia Desde**: Selecciona la fecha de inicio de la vigencia de la póliza. Este campo es obligatorio.
+   - **Vigencia Hasta**: Selecciona la fecha de fin de la vigencia de la póliza. Este campo es obligatorio.
+   - **Renovable**: Selecciona si la póliza es renovable o no. Este campo es obligatorio.
+
+   #### **5. Completa los Detalles de la Aseguradora**:
+   - **Aseguradora**: Selecciona la aseguradora correspondiente a la póliza. Este campo es obligatorio.
+   - **Clave de Agente**: Selecciona la clave del agente de la aseguradora.
+   - **Ramo**: Selecciona el ramo correspondiente a la póliza. Este campo es obligatorio.
+   - **Subramo**: Selecciona el subramo correspondiente. Este campo es obligatorio.
+   - **Paquete**: Selecciona el paquete correspondiente para la póliza. Este campo es obligatorio.
+
+   #### **6. Coberturas**: 
+   Selecciona las coberturas correspondientes a la póliza. Las coberturas se asignan según el ramo y subramo seleccionados.
+
+   #### **7. Forma de Pago**: 
+   Selecciona la forma de pago para la póliza. Las opciones incluyen mensual, bimestral, trimestral, etc. Este campo es obligatorio.
+
+   #### **8. Moneda**: 
+   Selecciona la moneda para la póliza. Las opciones incluyen pesos, dólares, UDI, euro, etc. Este campo es obligatorio.
+
+   #### **9. Observaciones**: 
+   Si es necesario, ingresa alguna observación adicional relacionada con la póliza.
+
+   #### **10. Archivos**: 
+   Si es necesario, adjunta los documentos relacionados con la póliza, como el contrato, identificación, comprobante de domicilio, etc.
+
+   Tras haber completado los datos generales de la póliza (aseguradora, ramo/subramo “Autos”, paquete, coberturas, forma de pago, moneda, observaciones y archivos), sigue estos pasos para llenar la sección de Autos:
+
+   1. **Conductor**  
+      - Ingresa el nombre completo de la persona que conducirá el vehículo.  
+      - Si quieres usar los mismos datos del contratante, haz clic en **“Llenar con datos contratante”**.  
+      - Este campo es obligatorio.
+
+   2. **Marca**  
+      - Escribe la marca del vehículo (por ejemplo, Toyota, Ford).  
+      - Este campo es obligatorio.
+
+   3. **Modelo**  
+      - Especifica el modelo del vehículo (por ejemplo, Corolla, Mustang).  
+      - Este campo es opcional.
+
+   4. **Año**  
+      - Ingresa el año del vehículo.  
+      - Solo números (por ejemplo, 2020).  
+      - Este campo es obligatorio.
+
+   5. **Versión**  
+      - Indica la versión o nivel de equipamiento (por ejemplo, SE, Limited).  
+      - Este campo es obligatorio.
+
+   6. **Motor**  
+      - Escribe la descripción del motor (por ejemplo, 2.0L, V6).  
+      - Este campo es opcional.
+
+   7. **Color**  
+      - Ingresa el color del vehículo.  
+      - Este campo es opcional.
+
+   8. **Matrícula**  
+      - Escribe el número de placa del vehículo.  
+      - Este campo es opcional.
+
+   9. **Serie**  
+      - Ingresa el número de serie (VIN) del vehículo.  
+      - Este campo es obligatorio.
+
+   10. **Uso del Vehículo**  
+      - Selecciona el uso que se dará al vehículo:  
+         - **Particular**  
+         - **Carga Comercial**  
+         - **Servicio**  
+      - Este campo es obligatorio.
+
+   11. **Revisión Final**  
+      - Verifica que todos los campos obligatorios estén completos y correctos.  
+      - Corrige cualquier error antes de continuar.
+
+   12. **Continuar o Guardar**  
+      - Si tu flujo te pide avanzar a otra sección, haz clic en **“Continuar”**.  
+      - Si necesitas guardar y salir, haz clic en **“Guardar Póliza”** o **“Cancelar”** según corresponda.
+
+   Con estos pasos habrás completado la sección de Autos en tu póliza. Asegúrate de revisar cada dato antes de finalizar el proceso.```
+
+--
+
+Instrucciones para Crear una Póliza de daños
+
+ #### **1. Asegúrate de tener la aseguradora, el ramo y el subramo configurados.**
+   Antes de crear una póliza, debes asegurarte de tener configurados los siguientes elementos:
+   - **Aseguradora**: Debes tener una aseguradora configurada previamente. Si no tienes una, dirígete a la sección de **Aseguradoras** y crea una.
+   - **Ramo y Subramo**: Debes tener configurado el ramo y subramo correspondientes a la póliza que deseas crear. Ve a la sección de **Ramos** y **Subramos** si necesitas crearlos.
+
+   #### **2. En el menú lateral, selecciona 'Pólizas'.**
+
+   #### **3. Dentro de la sección de 'Pólizas', haz clic en el botón 'Nueva Póliza'.**
+
+   #### **4. Completa los Datos Generales de la Póliza**:
+   - **Número Interno**: Este campo es autogenerado, pero se puede personalizar si es necesario.
+   - **Número de Póliza**: Ingresa el número de la póliza. Este campo es obligatorio.
+   - **Contratante**: Ingresa el nombre del contratante. Si ya tienes un contratante registrado, busca y selecciona el contratante correspondiente.
+   - **Dirección**: Selecciona la dirección correspondiente al contratante.
+   - **Correo Electrónico**: Ingresa la dirección de correo electrónico del contratante.
+   - **Teléfono**: Ingresa el número de teléfono del contratante.
+   - **Vigencia Desde**: Selecciona la fecha de inicio de la vigencia de la póliza. Este campo es obligatorio.
+   - **Vigencia Hasta**: Selecciona la fecha de fin de la vigencia de la póliza. Este campo es obligatorio.
+   - **Renovable**: Selecciona si la póliza es renovable o no. Este campo es obligatorio.
+
+   #### **5. Completa los Detalles de la Aseguradora**:
+   - **Aseguradora**: Selecciona la aseguradora correspondiente a la póliza. Este campo es obligatorio.
+   - **Clave de Agente**: Selecciona la clave del agente de la aseguradora.
+   - **Ramo**: Selecciona el ramo correspondiente a la póliza. Este campo es obligatorio.
+   - **Subramo**: Selecciona el subramo correspondiente. Este campo es obligatorio.
+   - **Paquete**: Selecciona el paquete correspondiente para la póliza. Este campo es obligatorio.
+
+   #### **6. Coberturas**: 
+   Selecciona las coberturas correspondientes a la póliza. Las coberturas se asignan según el ramo y subramo seleccionados.
+
+   #### **7. Forma de Pago**: 
+   Selecciona la forma de pago para la póliza. Las opciones incluyen mensual, bimestral, trimestral, etc. Este campo es obligatorio.
+
+   #### **8. Moneda**: 
+   Selecciona la moneda para la póliza. Las opciones incluyen pesos, dólares, UDI, euro, etc. Este campo es obligatorio.
+
+   #### **9. Observaciones**: 
+   Si es necesario, ingresa alguna observación adicional relacionada con la póliza.
+
+   #### **10. Archivos**: 
+   Si es necesario, adjunta los documentos relacionados con la póliza, como el contrato, identificación, comprobante de domicilio, etc.
+
+
+   Tras completar los datos generales de la póliza (aseguradora, ramo/subramo “Daños”, paquete, coberturas, forma de pago, moneda, observaciones y archivos), sigue estos pasos para completar la sección de Daños:
+
+   1. **Tipo de Daño**  
+      - En el campo “Tipo de Daño”, selecciona la opción que corresponda al bien asegurado.  
+      - Las opciones varían según el subramo (por ejemplo: Familiar, Casa Habitación, Empresarial, Vehículos, Cultivos, etc.).  
+      - Este campo es obligatorio.
+
+   2. **Bien Asegurado**  
+      - En “Bien Asegurado”, escribe el nombre o descripción del bien (por ejemplo: “Vivienda principal”, “Equipo de oficina”, “Cultivo de maíz”).  
+      - Este campo es opcional, pero recomendable para claridad.
+
+   3. **Dirección del Bien**  
+      - Ingresa la dirección donde se encuentra ubicado el bien asegurado.  
+      - Ejemplo: “Av. Reforma 123, Col. Centro, CDMX”.  
+      - Este campo es opcional, pero útil para ubicación en caso de siniestro.
+
+   4. **Detalles Adicionales**  
+      - En “Detalles”, aporta cualquier información extra relevante (número de serie, características especiales, dimensiones, uso, etc.).  
+      - Este campo es opcional.
+
+   5. **Revisión Final**  
+      - Verifica que el “Tipo de Daño” esté correctamente seleccionado.  
+      - Asegúrate de que la descripción del bien, la dirección y los detalles sean precisos.  
+
+   6. **Continuar o Guardar**  
+      - Si el flujo de tu sistema requiere avanzar a otra sección, haz clic en **“Continuar”**.  
+      - Si necesitas guardar la póliza y salir, haz clic en **“Guardar Póliza”** o **“Cancelar”**, según corresponda.
+
+   Con esto habrás completado correctamente la sección de Daños de tu póliza. ¡Revisa bien cada dato antes de finalizar!```
+
+--
+
+Instrucciones para Crear una Póliza de Gastos Funerarios
+ 
+ #### **1. Asegúrate de tener la aseguradora, el ramo y el subramo configurados.**
+   Antes de crear una póliza, debes asegurarte de tener configurados los siguientes elementos:
+   - **Aseguradora**: Debes tener una aseguradora configurada previamente. Si no tienes una, dirígete a la sección de **Aseguradoras** y crea una.
+   - **Ramo y Subramo**: Debes tener configurado el ramo y subramo correspondientes a la póliza que deseas crear. Ve a la sección de **Ramos** y **Subramos** si necesitas crearlos.
+
+   #### **2. En el menú lateral, selecciona 'Pólizas'.**
+
+   #### **3. Dentro de la sección de 'Pólizas', haz clic en el botón 'Nueva Póliza'.**
+
+   #### **4. Completa los Datos Generales de la Póliza**:
+   - **Número Interno**: Este campo es autogenerado, pero se puede personalizar si es necesario.
+   - **Número de Póliza**: Ingresa el número de la póliza. Este campo es obligatorio.
+   - **Contratante**: Ingresa el nombre del contratante. Si ya tienes un contratante registrado, busca y selecciona el contratante correspondiente.
+   - **Dirección**: Selecciona la dirección correspondiente al contratante.
+   - **Correo Electrónico**: Ingresa la dirección de correo electrónico del contratante.
+   - **Teléfono**: Ingresa el número de teléfono del contratante.
+   - **Vigencia Desde**: Selecciona la fecha de inicio de la vigencia de la póliza. Este campo es obligatorio.
+   - **Vigencia Hasta**: Selecciona la fecha de fin de la vigencia de la póliza. Este campo es obligatorio.
+   - **Renovable**: Selecciona si la póliza es renovable o no. Este campo es obligatorio.
+
+   #### **5. Completa los Detalles de la Aseguradora**:
+   - **Aseguradora**: Selecciona la aseguradora correspondiente a la póliza. Este campo es obligatorio.
+   - **Clave de Agente**: Selecciona la clave del agente de la aseguradora.
+   - **Ramo**: Selecciona el ramo correspondiente a la póliza. Este campo es obligatorio.
+   - **Subramo**: Selecciona el subramo correspondiente. Este campo es obligatorio.
+   - **Paquete**: Selecciona el paquete correspondiente para la póliza. Este campo es obligatorio.
+
+   #### **6. Coberturas**: 
+   Selecciona las coberturas correspondientes a la póliza. Las coberturas se asignan según el ramo y subramo seleccionados.
+
+   #### **7. Forma de Pago**: 
+   Selecciona la forma de pago para la póliza. Las opciones incluyen mensual, bimestral, trimestral, etc. Este campo es obligatorio.
+
+   #### **8. Moneda**: 
+   Selecciona la moneda para la póliza. Las opciones incluyen pesos, dólares, UDI, euro, etc. Este campo es obligatorio.
+
+   #### **9. Observaciones**: 
+   Si es necesario, ingresa alguna observación adicional relacionada con la póliza.
+
+   #### **10. Archivos**: 
+   Si es necesario, adjunta los documentos relacionados con la póliza, como el contrato, identificación, comprobante de domicilio, etc.
+
+
+
+   Después de completar los datos generales de la póliza (aseguradora, ramo/subramo “Gastos Funerarios”, paquete, coberturas, forma de pago, moneda, observaciones y archivos), sigue estos pasos para la sección de Gastos Funerarios:
+
+   1. **Datos de los Asegurados**  
+      - Haz clic en **“Agregar Titular”** para incluir a cada persona asegurada bajo esta cobertura funeraria.  
+      - Para cada asegurado, completa:
+      - **Nombre**: Primer nombre.
+      - **Apellido Paterno**: Primer apellido.
+      - **Apellido Materno**: Segundo apellido.
+      - **Fecha de Nacimiento**: Fecha en formato DD/MM/AAAA.
+      - **Antigüedad**: Fecha a partir de la cual la persona está cubierta.
+      - **Sexo**: Selecciona Masculino o Femenino.
+      - **¿Es fumador?**: Marca esta casilla si el asegurado fuma.
+      - Si agregaste más de un titular por error, puedes eliminarlo con **“Eliminar”**.
+
+   2. **Beneficiarios**  
+      - En la sección de beneficiarios, completa los datos de las personas que recibirán el pago funerario:
+      - **Tipo de beneficiario**: Físico o Moral (si aplica).
+      - **Nombre**.
+      - **Relación** con el asegurado (por ejemplo: Cónyuge, Hijo).
+      - **Porcentaje** o método de distribución de la suma asegurada (según tu sistema).
+      - Si necesitas quitar un beneficiario, haz clic en la “X” o en el botón **Eliminar** junto a su nombre.
+
+   3. **Revisión Final**  
+      - Verifica que todos los asegurados y beneficiarios estén correctos.  
+      - Asegúrate de que las fechas y los campos obligatorios estén completos.
+
+   4. **Continuar o Guardar**  
+      - Avanza al siguiente paso haciendo clic en **“Continuar”** o, si ya terminaste, en **“Guardar Póliza”** o **“Cancelar”**, según corresponda.
+
+   Con estos pasos habrás completado la sección de Gastos Funerarios de tu póliza. ¡Revisa cada detalle antes de finalizar el proceso!```
+
+--
+
+Instrucciones para Crear un Endoso
+
+   1. **Asegúrate de tener la póliza correcta**  
+      - Busca y abre la póliza a la que quieres agregar el endoso.  
+      - Verifica que la póliza esté activa y en el estatus “Vigente”.  
+
+   2. **Accede al menú de Endosos**  
+      - Dentro de la vista de la póliza, localiza la sección **Opciones**.  
+      - Haz clic en **“Crear Endoso”**.  
+
+   3. **Selecciona el tipo de endoso**  
+      - Elige uno de los tipos disponibles:  
+      - **A** (Ajuste de Coberturas)  
+      - **B** (Beneficiarios / Titulares)  
+      - **D** (Datos Generales)  
+      - Confirma tu selección para avanzar.  
+
+   4. **Escoge el concepto**  
+      - Selecciona el motivo predefinido (por ejemplo, “Cambio de Suma Asegurada”, “Corrección de Datos”, “Alta/Baja de Beneficiarios”).  
+      - Si no encaja ningún motivo, elige **OTRO** y describe libremente el cambio.  
+
+   5. **Define vigencia del endoso**  
+      - Ajusta las fechas **“Vigencia (inicio)”** y **“Vigencia (fin)”** si es necesario.  
+
+   6. **Completa el formulario específico**  
+      - Según tipo + concepto aparecerá un formulario distinto:  
+      - **A**: Ajustes de sumas, deducibles, paquetes.  
+      - **B**: Alta, edición o baja de beneficiarios/titulares.  
+      - **D**: Correcciones de datos generales (contratante, póliza, fechas, etc.).  
+      - Rellena todos los campos obligatorios.
+
+   7. **Recibos o notas de crédito (tipo A o D)**  
+      - Si el endoso implica variaciones de prima, crea **al menos un recibo** (o nota de crédito para tipo “D”) antes de guardar.  
+      - En la sección de **Recibos/Notas**, indica:  
+      - Número de recibo  
+      - Prima neta, derecho, RPF, IVA, subtotal y prima total  
+      - Fechas de vigencia y vencimiento  
+      - Para **Notas de crédito**, los montos se registran en negativo.
+
+   8. **Revisa todos los datos**  
+      - Verifica vigencias, montos, nombres .
+
+   9. **Guarda el endoso**  
+      - Haz clic en **“Guardar”** o **“Confirmar”**.  
+      - El sistema mostrará un mensaje de éxito.
+
+   10. **Verifica la aplicación**  
+      - Regresa a la póliza y comprueba que el nuevo endoso aparezca en el historial.  
+      - Revisa que las coberturas, beneficiarios o datos generales se hayan actualizado correctamente.
+
+   11. **Fin**  
+      - Continúa con otras gestiones en la póliza.  
+      - Para futuros cambios, repite estos pasos.
+
+--
+
+Instrucciones para Generar un Reporte de Pólizas
+
+   1. **Abrir la sección de Reportes**  
+      - En el menú principal, selecciona **“Reportes”** y luego **“Reporte Pólizas”**.
+
+   2. **Definir rango de fechas**  
+      - Por defecto se muestra el último mes.  
+      - Para cambiarlo, ajusta **“Fecha Inicio”** y **“Fecha Fin”** usando los calendarios.
+
+   3. **Filtrar por número de póliza** (opcional)  
+      - Si buscas una póliza en particular, escribe su número en **“Número de Póliza”**.
+
+   4. **Filtrar por contratante** (opcional)  
+      - Haz clic sobre el campo de contratante, comienza a escribir el nombre y selecciona el correcto.
+
+   5. **Seleccionar aseguradora** (opcional)  
+      - Abre el desplegable **“Aseguradora”** y elige la compañía deseada.
+
+   6. **Elegir ramo(s) y subramo(s)** (opcional)  
+      - En **“Ramo(s)”** marca una o varias categorías (Vida, Accidentes, Daños).  
+      - Luego en **“Subramo(s)”** selecciona las subcategorías que quieras incluir.
+
+   7. **Seleccionar criterio de reporte**  
+      - En **“Reporte por”** elige si filtrarás por **Fecha de ingreso** o **Vigencia**.  
+      - Si eliges **Vigencia**, asegúrate de que Fecha Inicio/Fin estén habilitados.
+
+   8. **Opciones de OT** (opcional)  
+      - Decide si quieres _solo OTs_, _incluir_ u _omitir_ las Órdenes de Trabajo en el reporte.
+
+   9. **Filtrar renovaciones** (opcional)  
+      - Elige _todas_, _solo renovadas_ o _solo no renovadas_.
+
+   10. **Generar reporte en pantalla**  
+      - Haz clic en **“Generar Reporte”**.  
+      - La tabla se rellenará con las pólizas que cumplan tus filtros.
+
+   11. **Navegar entre páginas**  
+      - Si hay muchas filas, utiliza los botones **“Anterior”** y **“Siguiente”** para recorrerlas.
+
+   12. **Exportar a Excel**  
+      - Si deseas descargar el reporte, haz clic en **“Generar Excel”**.  
+      - Espera la notificación y, cuando esté listo, se descargará el archivo automáticamente.
+
+   13. **Revisar totales**  
+      - Debajo de la tabla verás un recuadro con los totales de prima neta, prima total, comisión y número de registros, desglosados por moneda.
+
+   14. **Limpiar filtros** (opcional)  
+      - Para iniciar una nueva búsqueda usa el botón de limpiar o modifica los campos directamente y genera de nuevo.
+
+   ¡Listo! Con estos pasos podrás obtener y descargar fácilmente tu reporte de pólizas.
+
+--
+
+Instrucciones para Generar un Reporte de Endosos
+
+   1. **Abrir la sección de Reportes de Endosos**  
+      - En el menú principal, selecciona **“Reportes”** y luego **“Reporte Endosos”**.
+
+   2. **Definir rango de fechas**  
+      - Por defecto se muestra el último mes.  
+      - Para cambiarlo, ajusta **Fecha Inicio** y **Fecha Fin** usando los selectores de fecha.
+
+   3. **Filtrar por número de póliza** (opcional)  
+      - En **Número de Póliza**, escribe el número que deseas consultar.
+
+   4. **Filtrar por contratante** (opcional)  
+      - En el campo de contratante, comienza a escribir el nombre y selecciona al tomador correspondiente.
+
+   5. **Seleccionar aseguradora** (opcional)  
+      - Abre **Aseguradora** y elige la compañía deseada de la lista.
+
+   6. **Elegir ramo y subramo** (opcional)  
+      - En **Ramo** selecciona Vida, Accidentes y Enfermedades o Daños.  
+      - Luego, en **Subramo**, elige la opción que corresponda al ramo seleccionado.
+
+   7. **Filtrar por estatus** (opcional)  
+      - En **Estatus** elige uno de: Pendiente, En trámite, Registrado, Rechazado, Cancelado o Anulado.
+
+   8. **Filtrar por tipo de endoso** (opcional)  
+      - En **Tipo** selecciona A, B o D según corresponda.
+
+   9. **Ejecutar la búsqueda**  
+      - Haz clic en **“Generar Reporte”**.  
+      - La tabla se llenará con los endosos que cumplan tus criterios.
+
+   10. **Navegar entre páginas**  
+      - Si hay más resultados, utiliza los botones **Anterior** y **Siguiente** para desplazarte.
+
+   11. **Exportar a Excel**  
+      - Si deseas descargar el reporte, haz clic en **“Generar Excel”**.  
+      - Espera la notificación de descarga automática del archivo.
+
+   12. **Revisar Totales**  
+      - Debajo de la tabla verás un bloque con los totales de prima neta, prima total, comisión y número de registros, desglosados por moneda.
+
+   13. **Modificar filtros** (opcional)  
+      - Cambia cualquiera de los campos y vuelve a hacer clic en **Generar Reporte** para obtener nuevos resultados.
+
+   ¡Y eso es todo! Con estos pasos podrás filtrar, consultar y descargar fácilmente el reporte de endosos.  
+
+--
+
+Instrucciones para Generar un Reporte de Cobranza
+
+   1. **Abrir la sección de Reportes de Cobranza**  
+      - En el menú principal de la aplicación, selecciona **“Reportes”** y luego **“Reporte Cobranza”**.
+
+   2. **Definir rango de fechas de recibos**  
+      - Por defecto se muestra el último mes.  
+      - Ajusta **Desde** (Fecha de recibo inicio) y **Hasta** (Fecha de recibo fin) con los selectores de fecha.
+
+   3. **Filtrar por Carátula o Número de Póliza** (opcional)  
+      - En **Carátula** comienza a escribir y selecciona la póliza deseada.
+
+   4. **Filtrar por Contratante** (opcional)  
+      - En el campo de contratante escribe el nombre y selecciona al tomador correspondiente.
+
+   5. **Seleccionar aseguradora** (opcional)  
+      - Abre **Aseguradora** y elige la compañía aseguradora de la lista.
+
+   6. **Elegir ramo y subramo** (opcional)  
+      - En **Ramo** selecciona Vida, Accidentes y Enfermedades o Daños.  
+      - Luego, en **Subramo**, elige la opción correspondiente al ramo.
+
+   7. **Clave de Agente y Creado por** (opcional)  
+      - En **Clave de Agente** ingresa el código del agente.  
+      - En **Creado Por** selecciona el usuario que generó el recibo.
+
+   8. **Filtrar por entregado** (opcional)  
+      - En **Entregado** elige si deseas ver solo recibos entregados o no.
+
+   9. **Seleccionar “Reporte Por”**  
+      - Define el criterio de fechas para el reporte:  
+      - Inicio de vigencia, Vencimiento, Fecha de pago, etc.
+
+   10. **Elegir estatus de la póliza o recibo** (opcional)  
+      - En **Estatus** selecciona el estado de la póliza (Vigente, Cancelada, etc.)  
+      - En **Opciones** elige si quieres ver recibos, notas de crédito o ambos.
+
+   11. **Seleccionar conducto de pago** (opcional)  
+      - Marca la casilla que corresponda:  
+         - Domiciliado, No domiciliado, Agente, CAC, Nómina, etc.  
+         - Para incluir todos, deja marcada **Todos**.
+
+   12. **Ejecutar la búsqueda**  
+      - Haz clic en **“Generar Reporte”**.  
+      - La tabla se llenará con los resultados filtrados.
+
+   13. **Navegar páginas**  
+      - Si hay más resultados, utiliza **Anterior** y **Siguiente**.
+
+   14. **Exportar a Excel**  
+      - Si deseas descargar el listado, haz clic en **“Generar Excel”**.  
+      - Espera la notificación y la descarga automática del archivo.
+
+   15. **Revisar resultados**  
+      - Analiza la tabla con todos los datos de recibos: fechas, montos, pagados o no, agente, etc.
+
+   16. **Ajustar filtros si es necesario**  
+      - Modifica cualquier campo y vuelve a hacer clic en **Generar Reporte** para actualizar.
+
+   ¡Listo! Con estos pasos podrás consultar y descargar fácilmente el reporte de cobranza.  
+
+--
+
+Instrucciones para Generar un Reporte de Renovaciones
+
+   1. **Acceder al módulo de Reportes**  
+      - En el menú principal, selecciona **“Reportes”** y luego **“Reporte de Renovaciones”**.
+
+   2. **Rango de fechas**  
+      - Ajusta **Fecha Inicio** y **Fecha Fin** para el periodo que deseas analizar (por defecto último mes).
+
+   3. **Filtrar por Contratante** (opcional)  
+      - En el campo **Contratante**, empieza a escribir el nombre y selecciona el tomador de la lista.
+
+   4. **Seleccionar Aseguradora** (opcional)  
+      - Abre el desplegable **Aseguradora** y elige la compañía.
+
+   5. **Elegir Ramo(s)** (opcional)  
+      - Haz clic en **Ramo(s)** y selecciona uno o varios: Vida, Accidentes y Enfermedades, Daños.
+
+   6. **Elegir Subramo(s)** (opcional)  
+      - En **Subramo(s)** escoge los subramo(s) que correspondan al ramo seleccionado.
+
+   7. **Frecuencia de Pago** (opcional)  
+      - En **Frecuencia de Pago** selecciona Mensual, Bimestral, Trimestral o Anual.
+
+   8. **Clave de Agente** (opcional)  
+      - Si lo deseas, ingresa la **Clave de Agente** para filtrar por código de asesor.
+
+   9. **Creado Por** (opcional)  
+      - Ingresa el nombre de usuario que creó la póliza para filtrar por creador.
+
+   10. **Estatus** (opcional)  
+      - En **Estatus** selecciona el estado de la póliza: “Vigente”, “Renovada”, “No Renovada”, etc.
+
+   11. **Carátula** (opcional)  
+      - En **Carátula** empieza a escribir el número o folio de la carátula y selecciónala.
+
+   12. **Reporte Por** (obligatorio)  
+      - Elige si quieres ver las pólizas **Renovadas** o las **Por renovar**.
+
+   13. **Ejecutar búsqueda**  
+      - Haz clic en **“Generar Reporte”**. La tabla mostrará las renovaciones según tus filtros.
+
+   14. **Navegar entre páginas**  
+      - Si hay más resultados, usa **Anterior** y **Siguiente** para recorrer las páginas.
+
+   15. **Descargar Excel**  
+      - Si deseas exportar, haz clic en **“Generar Excel”**. Espera la notificación de descarga automática.
+
+   16. **Revisar Totales**  
+      - Al pie encontrarás los totales de Prima Neta, Prima Total, Comisión y el número de registros.
+
+   17. **Ajustar filtros y actualizar**  
+      - Modifica cualquier filtro y vuelve a presionar **Generar Reporte** para refrescar los datos.
+
+   ¡Listo! Con estos pasos podrás consultar y descargar tu reporte de renovaciones sin complicaciones.  
