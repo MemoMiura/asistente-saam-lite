@@ -8,6 +8,11 @@ from flask.cli import load_dotenv
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
+from langchain_core.prompts.chat import (
+    ChatPromptTemplate,
+    SystemMessagePromptTemplate,
+    HumanMessagePromptTemplate,
+)
 
 # Cargar variables de entorno desde .env
 load_dotenv()
@@ -45,10 +50,33 @@ except Exception as exc:
 retriever = vector_db.as_retriever(search_kwargs={"k": 4})  # top-4 trozos relevantes
 llm       = ChatOpenAI(temperature=0, model="gpt-4.1-mini", api_key=OPENAI_API_KEY)
 
+# Instrucciones para restringir el dominio de respuestas
+system_msg = (
+    "Eres un asistente virtual especializado en un CRM para la "
+    "gestión de pólizas de seguros. Responde exclusivamente preguntas "
+    "relacionadas con dicho CRM y la administración de pólizas. "
+    "Si la pregunta no está relacionada, indica que solo puedes ayudar "
+    "con consultas sobre pólizas de seguros."
+)
+system_template = (
+    f"{system_msg}\n"
+    "Utiliza el siguiente contexto para responder de forma concisa. "
+    "Si no conoces la respuesta basada en el contexto, responde que no lo sabes."
+    "\n----------------\n{context}"
+)
+
+prompt = ChatPromptTemplate.from_messages(
+    [
+        SystemMessagePromptTemplate.from_template(system_template),
+        HumanMessagePromptTemplate.from_template("{question}"),
+    ]
+)
+
 qa_chain = RetrievalQA.from_chain_type(
     llm=llm,
     chain_type="stuff",
     retriever=retriever,
+    chain_type_kwargs={"prompt": prompt},
     return_source_documents=False   # pon True si quieres devolver las fuentes
 )
 
