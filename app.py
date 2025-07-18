@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import pathlib
 import os
+import logging
 
 # LangChain
 from flask.cli import load_dotenv
@@ -10,9 +11,16 @@ from langchain.chains import RetrievalQA
 
 # Cargar variables de entorno desde .env
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-INDEX_DIR      = pathlib.Path("vectores/faiss_index")  # carpeta donde guardaste el índice
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise EnvironmentError(
+        "La variable de entorno OPENAI_API_KEY no está configurada."
+    )
+
+INDEX_DIR = pathlib.Path("faiss_index")  # carpeta donde guardaste el índice
 
 if not INDEX_DIR.exists():
     raise FileNotFoundError(
@@ -23,12 +31,16 @@ if not INDEX_DIR.exists():
 # --------------------------------------------------
 # Inicializar modelos y retriever
 # --------------------------------------------------
-embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
-vector_db  = FAISS.load_local(
-    str(INDEX_DIR),
-    embeddings,
-    allow_dangerous_deserialization=True,   # necesario al cargar localmente
-)
+try:
+    embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
+    vector_db = FAISS.load_local(
+        str(INDEX_DIR),
+        embeddings,
+        allow_dangerous_deserialization=True,  # necesario al cargar localmente
+    )
+except Exception as exc:
+    logger.exception("Error al inicializar los modelos o cargar el índice")
+    raise RuntimeError("Falló la inicialización del asistente") from exc
 
 retriever = vector_db.as_retriever(search_kwargs={"k": 4})  # top-4 trozos relevantes
 llm       = ChatOpenAI(temperature=0, model="gpt-4.1-mini", api_key=OPENAI_API_KEY)
@@ -45,9 +57,22 @@ qa_chain = RetrievalQA.from_chain_type(
 # --------------------------------------------------
 app = Flask(__name__)
 
+
+@app.errorhandler(Exception)
+def handle_exception(err):
+    """Manejador global de errores para respuestas JSON consistentes."""
+    logger.exception("Excepción no controlada: %s", err)
+    return jsonify({"response": "Ocurrió un error interno."}), 500
+
 @app.route("/")
 def index():
     return render_template("index.html")    # tu página simple de prueba
+
+
+@app.route("/salud")
+def health():
+    """Punto sencillo de verificación de estado."""
+    return jsonify({"status": "ok"})
 
 @app.route("/ayuda", methods=["POST"])
 def ayuda():
@@ -59,10 +84,13 @@ def ayuda():
 
     try:
         result = qa_chain({"query": pregunta})
+        logger.info("Pregunta procesada correctamente")
         return jsonify({"response": result["result"].strip()})
     except Exception as e:
+        logger.exception("Error al procesar la solicitud")
         return jsonify({"response": f"Ocurrió un error al procesar la solicitud: {str(e)}"}), 500
 
 if __name__ == "__main__":
     # Usa host y puerto según tu despliegue; debug=True solo en desarrollo
-    app.run(debug=True)
+    debug_mode = os.getenv("FLASK_DEBUG", "true").lower() == "true"
+    app.run(host="0.0.0.0", port=5000, debug=debug_mode)
