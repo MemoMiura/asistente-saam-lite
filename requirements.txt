@@ -1,45 +1,57 @@
-annotated-types==0.7.0
-anyio==4.9.0
-async-timeout==4.0.3
-blinker @ file:///C:/b/abs_b1i87khtob/croot/blinker_1737448732095/work
-certifi==2025.6.15
-charset-normalizer==3.4.2
-click @ file:///C:/b/abs_42rbjngfys/croot/click_1744271606983/work
-colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
-distro==1.9.0
-exceptiongroup==1.3.0
-Flask @ file:///C:/b/abs_a6m37uz578/croot/flask_1737454335662/work
-greenlet==3.2.3
-h11==0.16.0
-httpcore==1.0.9
-httpx==0.28.1
-idna==3.10
-importlib_metadata @ file:///C:/b/abs_9d0lp1ysmt/croot/importlib_metadata-suite_1732633510972/work
-itsdangerous @ file:///C:/b/abs_c4vwgdr5yn/croot/itsdangerous_1716533399914/work
-Jinja2 @ file:///C:/b/abs_920kup4e6u/croot/jinja2_1741711580669/work
-jiter==0.10.0
-jsonpatch==1.33
-jsonpointer==3.0.0
+# Web server
+Flask==3.0.3
+
+# LangChain y OpenAI
 langchain==0.3.26
 langchain-core==0.3.68
 langchain-text-splitters==0.3.8
-langsmith==0.4.4
-MarkupSafe @ file:///C:/b/abs_a0ma7ge0jc/croot/markupsafe_1738584052792/work
 openai==1.93.0
-orjson==3.10.18
-packaging==24.2
+langsmith==0.4.4
+
+# Modelado de datos
 pydantic==2.11.7
 pydantic_core==2.33.2
-PyYAML==6.0.2
-requests==2.32.4
-requests-toolbelt==1.0.0
-sniffio==1.3.1
-SQLAlchemy==2.0.41
-tenacity==9.1.2
-tqdm==4.67.1
 typing-inspection==0.4.1
 typing_extensions==4.14.1
+
+# Utilidades
+orjson==3.10.18
+tqdm==4.67.1
+colorama==0.4.6
+certifi==2025.6.15
+charset-normalizer==3.4.2
+idna==3.10
 urllib3==2.5.0
-Werkzeug @ file:///C:/b/abs_c7bupijx2_/croot/werkzeug_1737448709012/work
-zipp @ file:///C:/b/abs_2fcpcg89my/croot/zipp_1732630746332/work
+requests==2.32.4
+requests-toolbelt==1.0.0
+PyYAML==6.0.2
+anyio==4.9.0
+async-timeout==4.0.3
+tenacity==9.1.2
+httpcore==1.0.9
+httpx==0.28.1
+sniffio==1.3.1
+greenlet==3.2.3
+SQLAlchemy==2.0.41
 zstandard==0.23.0
+exceptiongroup==1.3.0
+
+# JSON helpers
+jsonpatch==1.33
+jsonpointer==3.0.0
+
+# Internals de Flask
+Jinja2==3.1.4
+itsdangerous==2.2.0
+MarkupSafe==2.1.5
+Werkzeug==3.0.3
+click==8.1.7
+blinker==1.7.0
+
+# Otros
+distro==1.9.0
+zipp==3.19.2
+importlib_metadata==7.1.0
+annotated-types==0.7.0
+jiter==0.10.0
+faiss-cpu==1.8.0
